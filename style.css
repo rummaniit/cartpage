@@ -1,0 +1,34 @@
+.page {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 30px;
+}
+
+
+
+img {
+    width: 310px;
+    object-position: right bottom;
+}
+
+.display {
+    border-top: 3px solid rgb(36, 35, 35);
+}
+
+@media screen and (max-width:600px) {
+    .page {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .applyinginput {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .whenmobile {
+        margin-top: 5px;
+    }
+}
